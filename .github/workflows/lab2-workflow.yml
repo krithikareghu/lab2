@@ -33,7 +33,7 @@ jobs:
 #   -H "Accept: application/vnd.github+json" \
 #   -H "Authorization: pattoken" \
 #   -H "X-GitHub-Api-Version: 2022-11-28" \
-#   https://api.github.com/repos/krithikareghu/lab2/actions/runs/9827033213 -o logs.json
+#   https://api.github.com/repos/krithikareghu/lab2/actions/runs/runnerid -o logs.json
 
 #   ##job
 
@@ -41,6 +41,6 @@ jobs:
 #   -H "Accept: application/vnd.github+json" \
 #   -H "Authorization: pattoken" \
 #   -H "X-GitHub-Api-Version: 2022-11-28" \
-#   https://api.github.com/repos/krithikareghu/lab2/actions/jobs/27129237985 -o jobs.json
+#   https://api.github.com/repos/krithikareghu/lab2/actions/jobs/jobid -o jobs.json
 
 
