@@ -6,11 +6,11 @@ on:
       run_job: 
         type: boolean
         required: false
-        description: Run Specific Job
+        description: "Run Specific Job"
       custom_message:
         type: string
         required: true
-        description: Enter a custom message
+        description: "Enter a custom message"
 
 
 jobs:
@@ -22,4 +22,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
        - name: Printing Custom Message
-         run: echo "${{inputs.custom_message}}"
+         run: echo ${{inputs.custom_message}}
