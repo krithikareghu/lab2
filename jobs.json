@@ -1,0 +1,60 @@
+{
+  "id": 27129237985,
+  "run_id": 9827033213,
+  "workflow_name": "Exploring Workflow Dispatch Trigger",
+  "head_branch": "main",
+  "run_url": "https://api.github.com/repos/krithikareghu/lab2/actions/runs/9827033213",
+  "run_attempt": 1,
+  "node_id": "CR_kwDOMTDoJM8AAAAGUQdR4Q",
+  "head_sha": "bc7e00248ba03ed0aa8d2e69ae6627fa598c911b",
+  "url": "https://api.github.com/repos/krithikareghu/lab2/actions/jobs/27129237985",
+  "html_url": "https://github.com/krithikareghu/lab2/actions/runs/9827033213/job/27129237985",
+  "status": "completed",
+  "conclusion": "success",
+  "created_at": "2024-07-07T11:52:54Z",
+  "started_at": "2024-07-07T11:53:02Z",
+  "completed_at": "2024-07-07T11:53:02Z",
+  "name": "job2",
+  "steps": [
+    {
+      "name": "Set up job",
+      "status": "completed",
+      "conclusion": "success",
+      "number": 1,
+      "started_at": "2024-07-07T11:53:00Z",
+      "completed_at": "2024-07-07T11:53:00Z"
+    },
+    {
+      "name": "Printing Custom Message",
+      "status": "completed",
+      "conclusion": "success",
+      "number": 2,
+      "started_at": "2024-07-07T11:53:00Z",
+      "completed_at": "2024-07-07T11:53:00Z"
+    },
+    {
+      "name": "Printing run-job boolean value",
+      "status": "completed",
+      "conclusion": "success",
+      "number": 3,
+      "started_at": "2024-07-07T11:53:00Z",
+      "completed_at": "2024-07-07T11:53:00Z"
+    },
+    {
+      "name": "Complete job",
+      "status": "completed",
+      "conclusion": "success",
+      "number": 4,
+      "started_at": "2024-07-07T11:53:00Z",
+      "completed_at": "2024-07-07T11:53:00Z"
+    }
+  ],
+  "check_run_url": "https://api.github.com/repos/krithikareghu/lab2/check-runs/27129237985",
+  "labels": [
+    "ubuntu-latest"
+  ],
+  "runner_id": 5,
+  "runner_name": "GitHub Actions 5",
+  "runner_group_id": 2,
+  "runner_group_name": "GitHub Actions"
+}

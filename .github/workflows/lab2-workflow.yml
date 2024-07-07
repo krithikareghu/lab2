@@ -27,3 +27,20 @@ jobs:
        - name: Printing run-job boolean value
          if: ${{ inputs.run-job == true }}
          run: echo ${{ inputs.run-job }}
+
+## runner
+curl -L \
+  -H "Accept: application/vnd.github+json" \
+  -H "Authorization: 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" \
+  -H "X-GitHub-Api-Version: 2022-11-28" \
+  https://api.github.com/repos/krithikareghu/lab2/actions/runs/9827033213 -o logs.json
+
+  ##job
+
+  curl -L \
+  -H "Accept: application/vnd.github+json" \
+  -H "Authorization: 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" \
+  -H "X-GitHub-Api-Version: 2022-11-28" \
+  https://api.github.com/repos/krithikareghu/lab2/actions/jobs/27129237985 -o jobs.json
+
+
