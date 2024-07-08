@@ -3,8 +3,7 @@ on:
     pull_request:
       branches:
         - main
-  
-  jobs:
+jobs:
     comment:
       runs-on: ubuntu-latest
       steps:
@@ -16,5 +15,5 @@ on:
                 issue_number: context.issue.number,
                 owner: context.repo.owner,
                 repo: context.repo.repo,
-                body: '👋 Thanks for reporting!'
+                body: 'A new PR has been created to the main branch. The production environment will be deployed if merged.'
               })
